@@ -1,0 +1,46 @@
+.quote {
+  background-color: var(--color-navy);
+  color: var(--color-white);
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.quote-content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-white);
+  margin: 0 2rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .quote-text {
+    font-size: 2rem;
+  }
+}
+
+.quote-mark {
+  position: absolute;
+  font-size: 4rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.2);
+  line-height: 1;
+}
+
+.quote-mark:first-child {
+  top: -1rem;
+  left: -1rem;
+}
+
+.quote-mark:last-child {
+  bottom: -2.5rem;
+  right: -1rem;
+}

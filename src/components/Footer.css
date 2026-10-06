@@ -1,0 +1,12 @@
+.footer {
+  background-color: var(--color-navy);
+  color: var(--color-white);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-content p {
+  color: var(--color-text-muted);
+  margin: 0;
+  font-size: 0.95rem;
+}
